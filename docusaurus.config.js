@@ -1,6 +1,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const year = new Date().getFullYear();
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Code for GovTech projects",
@@ -29,6 +29,7 @@ module.exports = {
               label: "UCI Web Channel",
               to: "/docs/2022/uci/",
             },
+            
             {
               label: "Competency Passbook",
               to: "/docs/2022/passbook/",
@@ -44,9 +45,27 @@ module.exports = {
             {
               label: 'Yaus: Yet Another URL Shortener',
               to: '/docs/2022/yaus/',
+<<<<<<< HEAD
             }
           ],
         },
+=======
+            },
+            {
+              label: 'Shiksha',
+              to: '/docs/2022/shiksha/',
+            }, 
+            {
+              label: 'Sunbird QuML Player',
+              to: '/docs/2022/sunbird-quml/',
+            },
+            {
+              label: 'Machine Learning Platform',
+              to: '/docs/2022/ml-platform/',
+            },
+          ],
+        }
+>>>>>>> upstream/main
       ],
     },
     footer: {
@@ -66,7 +85,14 @@ module.exports = {
             {
               label: "Main home page",
               href: "http://tech.samagragovernance.in/",
+<<<<<<< HEAD
             },
+=======
+            },{
+              label: "Resources",
+              to: '/docs/Resources'
+            }
+>>>>>>> upstream/main
           ],
         },
         {
@@ -83,7 +109,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © 2022 C4GT, Built with Docusaurus.`,
+      copyright: `Copyright © ${year} C4GT, Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,

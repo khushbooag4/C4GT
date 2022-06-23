@@ -13,7 +13,11 @@ Khushboo Agarwal
 
 # Contact Info
 - [Email](mailto:kushbooagarwal3584@gmail.com)
+<<<<<<< HEAD
 - [Linked In](https://www.linkedin.com/in/khushboo-agarwal-8b72151bb/)
+=======
+- [LinkedIn](https://www.linkedin.com/in/khushboo-agarwal-8b72151bb/)
+>>>>>>> upstream/main
 - [GitHub](https://www.github.com/khushbooag4)
 
 # Project Description

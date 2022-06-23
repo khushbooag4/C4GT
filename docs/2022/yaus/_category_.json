@@ -1,4 +1,8 @@
 {
   "label": "Yaus: Yet Another URL Shortener",
+<<<<<<< HEAD
   "position": 5
+=======
+  "position": 6
+>>>>>>> upstream/main
 }
